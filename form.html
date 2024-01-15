@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <form action="">
+        <table align="center">
+            <tr>
+                <td colspan="2"><h1>Create Your Account</h1></td>
+            </tr> 
+
+            <tr>
+                <td colspan="2"><font color="red">* Required Information</font></td>
+            </tr>
+            <tr><td><br></td></tr>
+            <tr align="left">
+                <td colspan="2" style="background-color: gray;"><b>Basic Information</b></td>
+            </tr>
+            <tr>
+                <td align="right">Email <font color="red">* </font></td>
+                <td><input type="email" placeholder="abc@gmail.com" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">Password <font color="red">* </font></td>
+                <td><input type="password" minlength="8" maxlength="15" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">Retype Password <font color="red">* </font></td>
+                <td><input type="password" minlength="8" maxlength="15" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">First Nmae <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter your First Name" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">Last Nmae <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter your Last Name" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">Phone Number <font color="red">* </font></td>
+                <td><input type="tel" placeholder="xxxx-xxxxxxx" pattern="['0-9']{4}-[0-9]{7}" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">Address <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter your Address" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">City <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter the City you live in" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">Province <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter your Province Name" required></td><br>
+            </tr>
+            <tr>
+                <td align="right">Country <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter your Country Name" required></td><br>
+            </tr>
+
+            <tr><td><br></td></tr>
+            <tr align="left">
+                <td colspan="2" style="background-color: gray;"><b>Education</b></td>
+            </tr>
+            <tr>
+                <td align="right">School <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter your School Name"></td><br>
+            </tr>
+            <tr>
+                <td align="right">Program <font color="red">* </font></td>
+                <td><input type="text" placeholder="Enter your Program Name"></td><br>
+            </tr>
+            <tr>
+                <td align="right">Education Level <font color="red">* </font></td>
+                    <td>
+                        <select name="" id="" >
+                            <option value="Middle">Middle</option>
+                            <option value="Matric">Matric</option>
+                            <option value="FSc/Intermediate">FSc/Intermediate</option>
+                            <option value="Graduation">Graduation</option>
+                            <option value="Master">Master</option>
+                            <option value="Phd">Phd</option>
+                        </select>
+                    </td><br>
+            </tr>
+           <tr>
+                <td align="right">Education Status</td>    
+                <td>
+                    <input type="radio">Graduated <br>
+                    <input type="radio">Currently Enrolled <br>
+                    <input type="radio">Did not Graduate <br>
+                </td>
+           </tr> 
+            <tr>
+                <td align="right">Graduation Date</td>
+                <td><input type="date" placeholder="Select"></td><br>
+            </tr>
+
+            <tr><td><br></td></tr>
+            <tr align="left">
+                <td colspan="2" style="background-color: gray;"><b>Work Experience</b></td>
+            </tr>
+            <tr>
+                <td align="right">Employer</td>
+                <td><input type="text" ></td><br>
+            </tr>
+            <tr>
+                <td align="right">Job Title</td>
+                <td><input type="text" ></td><br>
+            </tr>
+            <tr>
+                <td align="right">Job Duty</td>
+                <td><textarea name="" id="" cols="19" rows="5"></textarea></td><br>
+            </tr>
+            <tr>
+                <td align="right">Worked Years</td>
+                <td><input type="number" min="0" max="10" value="0" ondrop="return false;" onpaste="return false;" ></td><br>
+            </tr>
+
+            <tr><td><br></td></tr>
+            <tr align="left">
+                <td colspan="2" style="background-color: gray;"><b>Attachments</b></td>                
+            </tr>
+            <tr>
+                <td align="right" >Attachments</td>
+                <td><input type="file" name="file"></td>
+            </tr>            
+            <tr>
+                <td colspan="2" align = "middle">
+                    <input type="reset" value="Reset" style="background-color: red; color: white;" >
+                    <input type="submit" value="Submit" style="background-color: red; color: white;">
+                </td>
+            </tr>    
+
+        </table>
+    </form>
+</body>
+</html>
